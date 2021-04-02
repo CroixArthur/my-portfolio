@@ -13,7 +13,7 @@ module.exports = {
   // -- THEME SETTINGS -----
   colors: {
     lightTheme: {
-      primary: "#000000",
+      primary: "#469240",
       secondary: "#FFF4D9",
       tertiary: "#F2F2F2",
       text: "#000000",
