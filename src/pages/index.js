@@ -74,6 +74,7 @@ export const pageQuery = graphql`{
           title
           subtitlePrefix
           subtitle
+          subtitleSuffix
           icon {
             childImageSharp {
               gatsbyImageData(width: 60, quality: 90, layout: CONSTRAINED)

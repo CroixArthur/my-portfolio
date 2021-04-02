@@ -132,6 +132,7 @@ const Hero = ({ content }) => {
             <AnimatedUnderlining animate={uControls} big>
               {frontmatter.subtitle}
             </AnimatedUnderlining>
+            {frontmatter.subtitleSuffix}{" "}
           </h2>
           <div className="description">
             <MDXRenderer>{body}</MDXRenderer>
